@@ -1,0 +1,46 @@
+dev.odoorunner:0.24.0
++--- org.jetbrains.plugins.terminal:232.10072.31
+|    \--- com.intellij:232.10072.31 [declaring module com.intellij.modules.platform]
++--- com.intellij:232.10072.31 (*) [declaring module com.intellij.modules.platform]
+\--- PythonCore:232.10072.31 [declaring module com.intellij.modules.python]
+     +--- (failed) com.intellij.modules.clion (optional): Dependency 'com.intellij.modules.clion (optional, v1, legacy module)' is not resolved. It was searched in the following locations: Local Plugin Repository, Bundled plugins of PC-232.10072.31, Local Plugin Repository
+     +--- (failed) com.intellij.modules.datagrip (optional): Dependency 'com.intellij.modules.datagrip (optional, v1, legacy module)' is not resolved. It was searched in the following locations: Local Plugin Repository, Bundled plugins of PC-232.10072.31, Local Plugin Repository
+     +--- (failed) com.intellij.modules.go (optional): Dependency 'com.intellij.modules.go (optional, v1, legacy module)' is not resolved. It was searched in the following locations: Local Plugin Repository, Bundled plugins of PC-232.10072.31, Local Plugin Repository
+     +--- (failed) com.intellij.modules.idea (optional): Dependency 'com.intellij.modules.idea (optional, v1, legacy module)' is not resolved. It was searched in the following locations: Local Plugin Repository, Bundled plugins of PC-232.10072.31, Local Plugin Repository
+     +--- (failed) com.intellij.modules.rider (optional): Dependency 'com.intellij.modules.rider (optional, v1, legacy module)' is not resolved. It was searched in the following locations: Local Plugin Repository, Bundled plugins of PC-232.10072.31, Local Plugin Repository
+     +--- (failed) com.intellij.modules.rustrover (optional): Dependency 'com.intellij.modules.rustrover (optional, v1, legacy module)' is not resolved. It was searched in the following locations: Local Plugin Repository, Bundled plugins of PC-232.10072.31, Local Plugin Repository
+     +--- com.intellij:232.10072.31 (*) [declaring module com.intellij.modules.python-core-capable]
+     +--- (optional) com.intellij.copyright:232.10072.31
+     |    \--- com.intellij:232.10072.31 (*) [declaring module com.intellij.modules.lang]
+     +--- (optional) org.intellij.intelliLang:232.10072.31
+     |    +--- (failed) XPathView (optional): Dependency 'XPathView (optional, v1)' is not resolved. It was searched in the following locations: Local Plugin Repository, Bundled plugins of PC-232.10072.31, Local Plugin Repository
+     |    +--- (failed) com.intellij.modules.java (optional): Dependency 'com.intellij.modules.java (optional, v1, legacy module)' is not resolved. It was searched in the following locations: Local Plugin Repository, Bundled plugins of PC-232.10072.31, Local Plugin Repository
+     |    \--- (optional) com.intellij:232.10072.31 (*) [declaring module com.intellij.modules.xml]
+     +--- (optional) org.intellij.plugins.markdown:232.10072.31
+     |    +--- com.intellij.platform.images:232.10072.31
+     |    |    \--- com.intellij:232.10072.31 (*) [declaring module com.intellij.modules.lang]
+     |    +--- com.intellij:232.10072.31 (*) [declaring module com.intellij.modules.lang]
+     |    +--- (optional) org.intellij.intelliLang:232.10072.31 (*)
+     |    +--- (optional) org.jetbrains.plugins.yaml:232.10072.31
+     |    |    \--- com.intellij:232.10072.31 (*) [declaring module com.intellij.modules.lang]
+     |    \--- (optional) org.toml.lang:232.10072.31
+     |         \--- com.intellij:232.10072.31 (*) [declaring module com.intellij.modules.lang]
+     +--- (optional) org.jetbrains.plugins.rest:232.10072.31
+     |    \--- com.intellij:232.10072.31 (*) [declaring module com.intellij.modules.lang]
+     +--- (optional) org.jetbrains.plugins.terminal:232.10072.31 (*)
+     +--- (optional) org.toml.lang:232.10072.31 (*)
+     +--- (optional) tanvd.grazi:232.10072.31
+     |    +--- (failed) com.intellij.java (optional): Dependency 'com.intellij.java (plugin, v2)' is not resolved. It was searched in the following locations: Local Plugin Repository, Bundled plugins of PC-232.10072.31, Local Plugin Repository
+     |    +--- (optional) com.intellij.properties:232.10072.31
+     |    |    +--- com.intellij:232.10072.31 (*) [declaring module com.intellij.modules.xml]
+     |    |    \--- (optional) com.intellij.copyright:232.10072.31 (*)
+     |    +--- (optional) org.intellij.plugins.markdown:232.10072.31 (*)
+     |    +--- (optional) org.jetbrains.plugins.yaml:232.10072.31 (*)
+     |    \--- (optional) com.intellij:232.10072.31 (*) [declaring module com.intellij.modules.json]
+     \--- (optional) training:232.10072.31
+          +--- com.intellij:232.10072.31 (*) [declaring module com.intellij.modules.lang]
+          \--- (optional) Git4Idea:232.10072.31
+               +--- (failed) intellij.platform.ide.newUiOnboarding (optional): Dependency 'intellij.platform.ide.newUiOnboarding (module, v2)' is not resolved. It was searched in the following locations: Local Plugin Repository, Bundled plugins of PC-232.10072.31, Local Plugin Repository
+               +--- com.intellij:232.10072.31 (*) [declaring module com.intellij.modules.vcs]
+               \--- (optional) com.jetbrains.performancePlugin:232.10072.31
+                    \--- com.intellij:232.10072.31 (*) [declaring module com.intellij.modules.lang]

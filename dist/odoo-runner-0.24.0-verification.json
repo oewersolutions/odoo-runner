@@ -1,0 +1,19 @@
+{
+  "artifact": "odoo-runner-0.24.0.zip",
+  "sha256": "5f35820ceb7b324eb0e88faf26b9904f883dfe89982464b08e3440872a1dcf63",
+  "pluginId": "dev.odoorunner",
+  "version": "0.24.0",
+  "verifier": "JetBrains Plugin Verifier 1.411",
+  "ide": "PC-232.10072.31",
+  "mode": "offline",
+  "verdict": "Compatible",
+  "apiOrStructureFindings": false,
+  "runtimeSmokeTested": false,
+  "submissionPending": [
+    "public source repository URL",
+    "vendor website URL",
+    "branding permission review",
+    "runtime smoke verification",
+    "Marketplace vendor/account and review"
+  ]
+}
